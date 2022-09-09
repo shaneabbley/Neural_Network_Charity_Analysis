@@ -5,6 +5,7 @@ We were attempting to create a deep learning model that could predict the succes
 
 ### Results
 ![RESULTS](https://github.com/shaneabbley/Neural_Network_Charity_Analysis/blob/main/results.png)
+During attempt #3 we also dropped the STATUS and SPECIAL_CONSIDERATIONS columns because this caused a slight increase in accuracy.
 #### Data Preprocessing
 * The IS_SUCCESSFUL column was out target variable.
 * The STATUS, ASK_AMT, APLLICATION_TYPE, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT, AFFILIATION, and SPECIAL_CONSIDERATIONS columns were our model feature's.
