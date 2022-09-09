@@ -4,7 +4,7 @@
 We were attempting to create a deep learning model that can predict the success of applications to Alphabet Soup's fundraising. We used data from previous applications to determine whether our model is accurate enough for this purpose. In order to accomplish this, we used Tensorflow in Jupyter Notebooks
 
 ### Results
-![RESULTS]([http://url/to/img.png](https://github.com/shaneabbley/Neural_Network_Charity_Analysis/blob/main/Attempts.pdf))
+![RESULTS](https://github.com/shaneabbley/Neural_Network_Charity_Analysis/blob/main/results.png)
 #### Data Preprocessing
 * The IS_SUCCESSFUL column was out target variable
 * The STATUS, ASK_AMT, APLLICATION_TYPE, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT, AFFILIATION, and SPECIAL_CONSIDERATIONS columns were our model features
