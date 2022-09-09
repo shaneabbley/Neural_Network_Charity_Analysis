@@ -1,13 +1,13 @@
 # Neural_Network_Charity_Analysis
 
 ### Background
-We were attempting to create a deep learning model that can predict the success of applications to Alphabet Soup's fundraising. We used data from previous applications to determine whether our model is accurate enough for this purpose. In order to accomplish this, we used Tensorflow in Jupyter Notebooks
+We were attempting to create a deep learning model that could predict the success of applications to Alphabet Soup's fundraising. We used data from previous applications to determine whether our model is accurate enough for this purpose. In order to accomplish this, we used Tensorflow in Jupyter Notebook.
 
 ### Results
 ![RESULTS](https://github.com/shaneabbley/Neural_Network_Charity_Analysis/blob/main/results.png)
 #### Data Preprocessing
-* The IS_SUCCESSFUL column was out target variable
-* The STATUS, ASK_AMT, APLLICATION_TYPE, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT, AFFILIATION, and SPECIAL_CONSIDERATIONS columns were our model features
+* The IS_SUCCESSFUL column was out target variable.
+* The STATUS, ASK_AMT, APLLICATION_TYPE, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT, AFFILIATION, and SPECIAL_CONSIDERATIONS columns were our model feature's.
 * The identificatoin columns EIN and NAME were removed as they would not contribute to our models success.
 #### Compiling, Training, and Evaluating the Model
 * I ended up using one hidden layer containing 20 neurons and a relu activation function. The relu performed the best and 20 neurons seemed to be a sweet spot. Also, increasing the number of layers decreased the accuracy of my model.
